@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    float: none;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+li {
+    display: inline-block;
+}
+
+body {
+    height: 1000px;
+    width: 1000px;
+    background-color: black;
+}
+
+
+/*-----------------*/
+
+.wraper {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: absolute;
+}
+
+
+/*-----------------*/
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    border-left: 1px solid black;
+    border-right: 1px solid black;    
+    float: left;
+}
+
+.header_search {
+    width: 100px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    `border-right: 1px solid black;
+    float: left;
+}
+
+.header_search p {
+    color: black;
+    font-size: 24px;
+    font-family: Ubuntu, monospace;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.header_menu {
+    width: auto;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    margin: 0 0 0 300px;
+    float: right;
+    overflow: hidden;
+}
+
+.country_sel {
+    width: auto;
+    height: 70px;
+    position: relative;
+    float: left;
+}
+.country_sel li{
+    padding: 10px;
+    margin: 20px 5px;
+    background-color: #e3e3e3;
+}
+.country_sel li:hover{
+    background-color: #c1c1c1;
+    cursor: pointer;
+}
+
+.lang_sel {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px 30px;
+    float: left;
+}
+
+
+/*----------*/
+
+.slider {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    border: 1px solid white; 
+    background-repeat: no-repeat;
+}
+.slider img{
+    width: 100%;
+    `height: 350px;
+    
+}
+
+
+/*----------*/
+
+.content {
+    width: 1200px;
+    height: auto;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+}
+
+.content_menu {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+
+.content_news {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.content_news_area {
+    width: auto;
+    height: auto;
+}
+
+.news_card1,
+.news_card2,
+.news_card3 {
+    width: 350px;
+    height: 400px;
+    background-color: gray;
+    position: relative;
+    border: 1px solid black;
+    margin: 20px;
+    float: left;
+}
+
+.content_solution {
+    width: auto;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 10px 0;
+}
+
+.content_solution_area {
+    width: auto;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.solution_data {
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.solution_data_card {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    float: left;
+}
+
+.solution_data_line {
+    width: 5px;
+    height: 180px;
+    background-color: black;
+    position: relative;
+    margin: 10px;
+    float: left;
+}
+
+.solution_data_content {
+    width: 800px;
+    height: 200px;
+    background-color: gray;
+    border: 1px solid black;
+    position: relative;
+    margin: 5px;
+    float: left;
+}
+
+.solution_timeline {
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+}
+
+.solution_timeline_card1,
+.solution_timeline_card2,
+.solution_timeline_card3,
+.solution_timeline_card4,
+.solution_timeline_card5 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.solution_timeline_card1 {
+    background-color: red;
+}
+
+.solution_timeline_line {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    position: relative;
+}
+
+.content_partners {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin: 10px 0;
+}
+
+.content_partners_area {
+    width: auto;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid black;
+}
+
+.partners_card1,
+.partners_card2,
+.partners_card3 {
+    width: 200px;
+    height: 150px;
+    background-color: gray;
+    position: relative;
+    border: 1px solid black;
+    margin: 20px;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+    position: relative;
+    border: 1px solid red;
+}
+
+.footer p {
+    width: auto;
+    height: 250px;
+}
